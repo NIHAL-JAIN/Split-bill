@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Savings"
+            android:icon="@drawable/savingss"
+            android:title="Savings" />
+        <item
+            android:id="@+id/Self"
+            android:icon="@drawable/self"
+            android:title="Self" />
+        <item
+            android:id="@+id/Groups"
+            android:icon="@drawable/showsavings"
+            android:title="Groups" />
+        <item
+            android:id="@+id/Getgroups"
+            android:icon="@drawable/showsavings"
+            android:title="Show savings" />
+    </group>
+    <item android:title="Communicate">
+        <group>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </group>
+    </item>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+    </menu>
+
+
